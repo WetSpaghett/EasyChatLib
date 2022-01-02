@@ -25,7 +25,6 @@ public class ChatHandler {
     }
 
     // Sends a message to a specific player.
-    // Run clientside.
     public static void clientChatMessage(String message, EntityPlayer pl) {
         ITextComponent msg = new TextComponentTranslation(message);
         pl.sendMessage(msg);

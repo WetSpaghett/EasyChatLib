@@ -15,10 +15,6 @@ import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 public class ChatHandler {
     public static World world = null;
 
-    @SubscribeEvent
-    public static void worldGetter(PlayerEvent.PlayerLoggedInEvent e) {
-        world = e.player.world;
-    }
     // Sends a message to all players on the server.
     // Run serverside.
     public static void chatMessage(String message) {

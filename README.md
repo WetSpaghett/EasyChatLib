@@ -14,3 +14,5 @@ compile fileTree(dir: 'libs', include: ['*.jar'])
 ```
 inside the dependencies part of your build.gradle file.
 and add the non dev jar file into your mods folder.
+<br><br>
+You may package this mod with yours if you provide credit.

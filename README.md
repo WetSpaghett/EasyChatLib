@@ -7,6 +7,8 @@ It was originally part of my
 but i decided to turn it into a library.
 
 # How to use?
+This mod is built for Minecraft 1.12.2
+<br>
 All you have to do is add the dev jar file
 into the libs folder in your mod's root directory and add:
 ```

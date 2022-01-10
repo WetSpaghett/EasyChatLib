@@ -14,7 +14,12 @@ into the libs folder in your mod's root directory and add:
 ```
 compile fileTree(dir: 'libs', include: ['*.jar'])
 ```
-inside the dependencies part of your build.gradle file.
-and add the non dev jar file into your mods folder.
-<br><br>
+inside the dependencies part of your build.gradle file and add
+```
+dependencies = "required-after:easychatlib@[v#.#.#,)"
+```
+into your @Mod interface in your main mod class, replacing the hashes with the version number.
+<br>
+Make sure to provide a link to this github so your mod's players can use the mod.
+<br>
 You may package this mod with yours if you provide credit.

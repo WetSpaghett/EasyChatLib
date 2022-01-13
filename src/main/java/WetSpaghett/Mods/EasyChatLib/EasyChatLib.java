@@ -7,5 +7,5 @@ import net.minecraftforge.fml.common.Mod;
 public class EasyChatLib {
     public static final String MODID = "easychatlib";
     public static final String NAME = "Easy Chat Lib";
-    public static final String VERSION = "v0.1.1";
+    public static final String VERSION = "v0.1.2";
 }

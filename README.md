@@ -4,9 +4,9 @@ EasyChatLib is a library mod that adds an easy way to send chat messages without
 It was originally part of my [poomod](https://www.github.com/wetspaghett/minecraft-poo-mod), but i decided to turn it into a library.
 
 # How to use?
-This mod is built for Minecraft 1.12.2
+This mod is built for Minecraft 1.16.5
 <br>
-All you have to do is add the dev jar file into the libs folder in your mod's root directory and add:
+All you have to do is deobfuscate the jar file, then add it into the libs folder in your mod's root directory and add:
 ```
 compile fileTree(dir: 'libs', include: ['*.jar'])
 ```

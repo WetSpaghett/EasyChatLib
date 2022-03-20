@@ -8,17 +8,21 @@ This mod is built for Minecraft 1.16.5
 <br>
 All you have to do is deobfuscate the jar file, then add it into the libs folder in your mod's root directory and add:
 ```
-compile fileTree(dir: 'libs', include: ['*.jar'])
+compileClassPath fileTree(dir: 'libs', include: ['*.jar'])
 ```
 inside the dependencies part of your build.gradle file and add
 ```
-dependencies = "required-after:easychatlib@[v#.#.#,)"
+[[dependencies.easychatlib]]
+    modId="easychatlib"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[#.#.#,#.#)"
+    ordering="NONE"
+    side="BOTH"
 ```
-into your @Mod interface in your main mod class, replacing the hashes with the version number.
-<br>
-Make sure to provide a link to this github so your mod's players can use the mod.
-<br>
-You may package this mod with yours if you provide credit.
+into your mods.toml, replacing the hashes with the version number range.
+<br><br>
+I'd appreciate it if you provided a link to this GitHub where ever you post your mod.
 
 # Documentation?
-Documentation is hosted [here](https://wetspaghett.github.io/EasyChatLib/).
+Documentation is in the form of a javadoc jar, released alongside other jars. You can look up how to import javadocs in your IDE of choice.

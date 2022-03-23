@@ -12,7 +12,7 @@ compileClassPath fileTree(dir: 'libs', include: ['*.jar'])
 ```
 inside the dependencies part of your build.gradle file and add
 ```
-[[dependencies.easychatlib]]
+[[dependencies.yourmodid]]
     modId="easychatlib"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
